@@ -1,0 +1,15 @@
+# Voluntapp - Gestión de Voluntariado
+**Sprint 1: Arquitectura y Definición de Historias de Usuario**
+
+Sistema parametrizable para la coordinación de voluntarios, organizaciones sociales (Techo, Cruz Roja, Teletón) e instituciones académicas (FPUNA).
+
+### Tecnologías del Proyecto
+* **Frontend:** React.js + Tailwind CSS
+* **Backend:** FastAPI (Python)
+* **Base de Datos:** PostgreSQL
+* **Infraestructura:** Docker
+
+### Objetivos del Sprint 1
+- Definición de Historias de Usuario en Jira.
+- Diseño de Arquitectura de N-Capas.
+- Modelo de Datos Preliminar.
