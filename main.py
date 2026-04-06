@@ -17,7 +17,6 @@ async def home(token: str = Cookie(None)):
     user = verificar_acceso(token)
     if not user: return RedirectResponse(url="/login", status_code=303)
     
-    # HE RECUPERADO TUS TEXTOS ORIGINALES AQUÍ:
     info_html = f"""
     <div class="space-y-12">
         <div class="bg-blue-900/20 border border-blue-500/20 p-10 rounded-[3rem] text-center shadow-inner">
